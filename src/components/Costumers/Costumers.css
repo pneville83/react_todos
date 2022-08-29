@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#costumers {
+  width: 1263;
+  height: 400px;
+  padding: 10px;
+  border-radius: 20px;
+  margin-left: 20px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.costumers__title {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 
+  'Trebuchet MS', sans-serif;
+  color: rgb(163, 161, 161);
+}
+
+.brands {
+  width:100%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.brands-1 {
+  background-image: url(./kfc.png);
+  width: 19%;
+  height: 49%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px 0 rgb(173 176 190 / 40%);
+}
+
+.brands-2 {
+  background-image: url(./lai-lai.png);
+  width: 19%;
+  height: 49%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px 0 rgb(173 176 190 / 40%);
+}
+
+.brands-3 {
+  background-image: url(./noe.png);
+  width: 19%;
+  height: 49%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px 0 rgb(173 176 190 / 40%);
+}
+
+.brands-4 {
+  background-image: url(./eddys-bbq.png);
+  width: 19%;
+  height: 49%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px 0 rgb(173 176 190 / 40%);
+}
+
+.brands-5 {
+  background-image: url(./yogurt-amazonas.png);
+  width: 19%;
+  height: 49%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px 0 rgb(173 176 190 / 40%);
+}
+
+.brands-6 {
+  background-image: url(./farmacias-911.png);
+  width: 19%;
+  height: 49%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px 0 rgb(173 176 190 / 40%);
+}
+
+.brands-7 {
+  background-image: url(./pharmacys.png);
+  width: 19%;
+  height: 49%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px 0 rgb(173 176 190 / 40%);
+}
+
+.brands-8 {
+  background-image: url(./pizzeria-el-hornero.png);
+  width: 19%;
+  height: 49%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px 0 rgb(173 176 190 / 40%);
+}
+
+.brands-9 {
+  background-image: url(./quiznos.png);
+  width: 19%;
+  height: 49%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px 0 rgb(173 176 190 / 40%);
+}
+
+.brands-10 {
+  background-image: url(./burger-king.png);
+  width: 19%;
+  height: 49%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px 0 rgb(173 176 190 / 40%);
+}
